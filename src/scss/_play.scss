@@ -1,4 +1,4 @@
-$small-mobile-breakpoint: 424px;
+$small-mobile-breakpoint: 425px;
 
 .play {
     width: 100%;
@@ -13,7 +13,7 @@ $small-mobile-breakpoint: 424px;
         margin-top: 4.375rem;
 
         @media (max-width: $small-mobile-breakpoint) {
-            width: 300px;
+            width: 250px;
         }
     }
 
@@ -30,8 +30,8 @@ $small-mobile-breakpoint: 424px;
 
             @media (max-width: $small-mobile-breakpoint) {
                 transform: translateX(-8rem) translateY(15rem);
-                height: 120px;
-                width: 120px;
+                height: 110px;
+                width: 110px;
             }
 
             &--paper {
@@ -52,7 +52,7 @@ $small-mobile-breakpoint: 424px;
                 }
 
                 @media (max-width: $small-mobile-breakpoint) {
-                    transform: translateX(7rem);
+                    transform: translateX(6rem);
                 }
             }
 
@@ -65,7 +65,7 @@ $small-mobile-breakpoint: 424px;
                 }
 
                 @media (max-width: $small-mobile-breakpoint) {
-                    transform: translateX(-8rem) translateY(15rem);
+                    transform: translateX(-7rem) translateY(12rem);
                 }
             }
         }
